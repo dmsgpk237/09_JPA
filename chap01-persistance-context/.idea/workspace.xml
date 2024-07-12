@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8279093-bf6a-4349-a91c-05a63f53273f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../chap00-intro-lecturce-source/src/main/java/com/ohgiraffers/section00/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap00-intro-lecturce-source/src/main/java/com/ohgiraffers/section01/problem/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap00-intro-lecturce-source/src/main/java/com/ohgiraffers/section01/problem/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap00-intro-lecturce-source/src/main/java/com/ohgiraffers/section01/problem/MenuAndCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap00-intro-lecturce-source/src/test/java/com/ohgiraffers/section00/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap00-intro-lecturce-source/src/test/java/com/ohgiraffers/section01/problem/ProblemOfUsingDirectSQLTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section01/A_EntityManagerLifeCycleTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section02/crud/A_EntityManagerCRUDTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section02/crud/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section03/A_EntityLifeCycleTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2j7wrwUV4vPGElnomw3zatrRWva" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.A_EntityLifeCycleTests.test1.executor": "Run",
+    "Gradle.A_EntityLifeCycleTests.test2.executor": "Run",
+    "Gradle.A_EntityLifeCycleTests.test3.executor": "Run",
+    "Gradle.A_EntityLifeCycleTests.test4.executor": "Run",
+    "Gradle.A_EntityManagerCRUDTests.deleteMenu.executor": "Run",
+    "Gradle.A_EntityManagerCRUDTests.insertNewMenuTest.executor": "Run",
+    "Gradle.A_EntityManagerCRUDTests.modifyMenuNameTest.executor": "Run",
+    "Gradle.A_EntityManagerCRUDTests.selectMenuByMenuCodeTest.executor": "Run",
+    "Gradle.A_EntityManagerCRUDTests.test5.executor": "Run",
+    "Gradle.A_EntityManagerCRUDTests.test6.executor": "Run",
+    "Gradle.A_EntityManagerCRUDTests.test7.executor": "Run",
+    "Gradle.A_EntityManagerCRUDTests.삭제_테스트8.executor": "Run",
+    "Gradle.A_EntityManagerLifeCycleTests.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/8/Desktop/lbkLand",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Gradle.A_EntityManagerCRUDTests.삭제_테스트8">
+    <configuration name="A_EntityLifeCycleTests.test4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.ohgiraffers.section03.A_EntityLifeCycleTests.test4&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="A_EntityManagerCRUDTests.삭제_테스트8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.ohgiraffers.section02.crud.A_EntityManagerCRUDTests.삭제_테스트8&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="A_EntityManagerCRUDTests.test5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.ohgiraffers.section02.crud.A_EntityManagerCRUDTests.test5&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="A_EntityManagerCRUDTests.test6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.ohgiraffers.section02.crud.A_EntityManagerCRUDTests.test6&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="A_EntityManagerCRUDTests.test7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.ohgiraffers.section02.crud.A_EntityManagerCRUDTests.test7&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.A_EntityManagerCRUDTests.삭제_테스트8" />
+        <item itemvalue="Gradle.A_EntityManagerCRUDTests.test7" />
+        <item itemvalue="Gradle.A_EntityManagerCRUDTests.test6" />
+        <item itemvalue="Gradle.A_EntityManagerCRUDTests.test5" />
+        <item itemvalue="Gradle.A_EntityLifeCycleTests.test4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8279093-bf6a-4349-a91c-05a63f53273f" name="Changes" comment="" />
+      <created>1720751626713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720751626713</updated>
+      <workItem from="1720751627795" duration="13639000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
