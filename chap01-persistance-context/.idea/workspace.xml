@@ -5,17 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8279093-bf6a-4349-a91c-05a63f53273f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../chap00-intro-lecturce-source/src/main/java/com/ohgiraffers/section00/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap00-intro-lecturce-source/src/main/java/com/ohgiraffers/section01/problem/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap00-intro-lecturce-source/src/main/java/com/ohgiraffers/section01/problem/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap00-intro-lecturce-source/src/main/java/com/ohgiraffers/section01/problem/MenuAndCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap00-intro-lecturce-source/src/test/java/com/ohgiraffers/section00/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap00-intro-lecturce-source/src/test/java/com/ohgiraffers/section01/problem/ProblemOfUsingDirectSQLTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section01/A_EntityManagerLifeCycleTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section02/crud/A_EntityManagerCRUDTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section02/crud/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohgiraffers/section03/A_EntityLifeCycleTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section01/entity/EntityMappingTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section01/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section02/column/ColumnMappingTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section02/column/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section03/primarykey/subsection01/identify/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section03/primarykey/subsection01/identify/PrimaryKeyMappingTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section03/primarykey/subsection02/table/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section03/primarykey/subsection02/table/SequenceTableMappingTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section04/enumtype/EnumTypeMappingTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section04/enumtype/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section04/enumtype/RoleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section05/access/subsection01/field/FieldAccessTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section05/access/subsection01/field/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section05/access/subsection02/property/AccessPropertyTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/java/com/ohgiraffers/section05/access/subsection02/property/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap02-mapping-lecture-source/src/test/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43d80c16-c7a0-45e7-952c-a4c4dcf3543a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43d80c16-c7a0-45e7-952c-a4c4dcf3543a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,46 +68,46 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2j7wrwUV4vPGElnomw3zatrRWva" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.A_EntityLifeCycleTests.test1.executor": "Run",
-    "Gradle.A_EntityLifeCycleTests.test2.executor": "Run",
-    "Gradle.A_EntityLifeCycleTests.test3.executor": "Run",
-    "Gradle.A_EntityLifeCycleTests.test4.executor": "Run",
-    "Gradle.A_EntityManagerCRUDTests.deleteMenu.executor": "Run",
-    "Gradle.A_EntityManagerCRUDTests.insertNewMenuTest.executor": "Run",
-    "Gradle.A_EntityManagerCRUDTests.modifyMenuNameTest.executor": "Run",
-    "Gradle.A_EntityManagerCRUDTests.selectMenuByMenuCodeTest.executor": "Run",
-    "Gradle.A_EntityManagerCRUDTests.test5.executor": "Run",
-    "Gradle.A_EntityManagerCRUDTests.test6.executor": "Run",
-    "Gradle.A_EntityManagerCRUDTests.test7.executor": "Run",
-    "Gradle.A_EntityManagerCRUDTests.삭제_테스트8.executor": "Run",
-    "Gradle.A_EntityManagerLifeCycleTests.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/8/Desktop/lbkLand",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editing.templates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.A_EntityLifeCycleTests.test1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.A_EntityLifeCycleTests.test2.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.A_EntityLifeCycleTests.test3.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.A_EntityLifeCycleTests.test4.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.A_EntityManagerCRUDTests.deleteMenu.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.A_EntityManagerCRUDTests.insertNewMenuTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.A_EntityManagerCRUDTests.modifyMenuNameTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.A_EntityManagerCRUDTests.selectMenuByMenuCodeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.A_EntityManagerCRUDTests.test5.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.A_EntityManagerCRUDTests.test6.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.A_EntityManagerCRUDTests.test7.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.A_EntityManagerCRUDTests.삭제_테스트8.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.A_EntityManagerLifeCycleTests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/8/Desktop/lbkLand&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.A_EntityManagerCRUDTests.삭제_테스트8">
     <configuration name="A_EntityLifeCycleTests.test4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -235,6 +256,8 @@
       <option name="presentableId" value="Default" />
       <updated>1720751626713</updated>
       <workItem from="1720751627795" duration="13639000" />
+      <workItem from="1721003445794" duration="402000" />
+      <workItem from="1721003928100" duration="669000" />
     </task>
     <servers />
   </component>
