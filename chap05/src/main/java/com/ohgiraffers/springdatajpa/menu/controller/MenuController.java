@@ -92,16 +92,60 @@ public class MenuController {
     @GetMapping("/regist")
     public void registPage() {}
 
-//    @GetMapping(value = "category", produces = "application/json; charset=utf-8")
-//    @ResponseBody
-//    public List<CategoryDTO> categoryPage() {
-//
-//        List<CategoryDTO> categoryList = menuService.findAllCategory();
-//        log.info("categoryList ================= {}", categoryList);
-//
-//
-//        return categoryList;
-//
-//    }
+    @GetMapping(value = "category", produces = "application/json; charset=utf-8")
+    @ResponseBody
+    public List<CategoryDTO> categoryPage() {
 
+        List<CategoryDTO> categoryList = menuService.findAllCategory();
+        log.info("categoryList ================= {}", categoryList);
+
+
+        return categoryList;
+
+    }
+
+    @PostMapping("/regist")
+    public String registNewMenu(@ModelAttribute MenuDTO newMenu) {
+
+        log.info("newMenu =================== > {}", newMenu);
+
+        menuService.registNewMenu(newMenu);
+
+        return "redirect:/menu/list";
+
+    }
+
+    @GetMapping("/modify/{menuCode}")
+    public String modifyPage(@PathVariable int menuCode, Model model) {
+
+        log.info("menuCode ==== {}", menuCode);
+
+        // 메뉴 코드로 메뉴 조회해오는 기능
+        MenuDTO menu = menuService.findMenuByCode(menuCode);
+
+        model.addAttribute("menu", menu);
+
+        return "menu/modify";
+    }
+
+    @PostMapping("/modify")
+    // ModelAttribute 생략 가능
+    public String modifyMenu(MenuDTO modifyMenu) {
+
+        log.info("modifyMenu ========= {}", modifyMenu);
+
+        menuService.modifyMenu(modifyMenu);
+
+        return "redirect:/menu/modify/" + modifyMenu.getMenuCode();
+    }
+
+    @GetMapping("/delete")
+    public void deletePage() {}
+
+    @PostMapping("/delete")
+    public String deleteMenu(@RequestParam Integer menuCode) {
+        menuService.deleteMenu(menuCode);
+
+        return "redirect:/menu/list";
+    }
 }

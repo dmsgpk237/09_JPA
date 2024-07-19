@@ -4,7 +4,9 @@ import com.ohgiraffers.springdatajpa.menu.model.dto.CategoryDTO;
 import com.ohgiraffers.springdatajpa.menu.model.dto.MenuDTO;
 import com.ohgiraffers.springdatajpa.menu.model.entity.Category;
 import com.ohgiraffers.springdatajpa.menu.model.entity.Menu;
+import com.ohgiraffers.springdatajpa.menu.model.repository.CategoryRepository;
 import com.ohgiraffers.springdatajpa.menu.model.repository.MenuRepository;
+import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.springframework.data.domain.Page;
@@ -21,14 +23,22 @@ import java.util.stream.Collectors;
 @Service
 public class MenuService {
 
+    // 생성자 주입
     private final MenuRepository menuRepository;
     private final ModelMapper modelMapper;
+    private final CategoryRepository categoryRepository;
 
-    public MenuService(MenuRepository menuRepository, ModelMapper modelMapper) {
+    public MenuService(MenuRepository menuRepository, ModelMapper modelMapper, CategoryRepository categoryRepository) {
         this.menuRepository = menuRepository;
         this.modelMapper = modelMapper;
+        this.categoryRepository = categoryRepository;
     }
 
+    /**
+     * 메소드 정보 적어줌 : 메뉴 코드로 메뉴를 찾는 메소드
+     * @param menuCode : 찾을 메뉴의 메뉴코드
+     * @return
+     */
     public MenuDTO findMenuByCode(int menuCode) {
 
         // MenuDTO -> 일반클래스 / 영속성 컨텍스트에서 관리 안 됨, 객체간 이동할 때
@@ -94,8 +104,54 @@ public class MenuService {
 
     }
 
-//    public List<CategoryDTO> findAllCategory() {
-//
-//        List<Category> categoryList = categoryRepository.findAllCategory();
-//    }
+    public List<CategoryDTO> findAllCategory() {
+
+//        List<Category> categoryList = categoryRepository.findAll();
+//        List<Category> categoryList = categoryRepository.findAllCategoryByJPQL();
+
+        List<Category> categoryList = categoryRepository.findAllCategoryByNativeQuery();
+
+        return categoryList.stream().map(category -> modelMapper
+                        .map(category, CategoryDTO.class))
+                .collect(Collectors.toList());
+    }
+
+    @Transactional
+    public void registNewMenu(MenuDTO newMenu) {
+
+        Menu menu = modelMapper.map(newMenu, Menu.class);
+
+        // Builder 적용
+//        Menu menu = new Menu().builder()
+//                .menuName(newMenu.getMenuName())
+//                .menuPrice(newMenu.getMenuPrice())
+//                .menuCode(newMenu.getMenuCode())
+//                .categoryCode(newMenu.getCategoryCode())
+//                .orderableStatus(newMenu.getOrderableStatus())
+//                .build();
+
+        menuRepository.save(menu);
+
+    }
+
+    // 엔티티만 영속이 가능하기 때문에 DTO인 modifyMenu는 영속화가 불가능하다.
+    @Transactional
+    public void modifyMenu(MenuDTO modifyMenu /*변경할 이름, 변경할 대상의 코드*/ ) {
+
+        // modifyMenu -> 비영속
+        // 영속
+
+        Menu foundMenu = menuRepository.findById(modifyMenu.getMenuCode()).
+                orElseThrow(() -> new IllegalArgumentException("Menu not found"));
+
+//        foundMenu.toBuilder().menuName(modifyMenu.getMenuName()).build();
+        foundMenu.setMenuName(modifyMenu.getMenuName());
+        log.info("foundMenu ============> {}", foundMenu);
+
+    }
+
+    @Transactional
+    public void deleteMenu(Integer menuCode) {
+        menuRepository.deleteById(menuCode);
+    }
 }
